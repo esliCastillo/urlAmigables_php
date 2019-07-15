@@ -1,0 +1,11 @@
+@charset "utf-8";
+.footer {
+	text-align: center;
+	clear: left;
+}
+.footer .created {
+	text-align: right;
+}
+.footer .created  a{
+	text-decoration: none;
+}

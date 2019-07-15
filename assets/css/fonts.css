@@ -1,0 +1,29 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Killam';
+	src: url('../fonts/Killam-Bold.ttf');
+	/*src: local('☺'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.woff') format('woff'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.ttf') format('truetype'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.svg') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'berylium_bd_it';
+	src: url('../fonts/berylium_bd_it/berylium_bd_it.ttf');
+	/*src: local('☺'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.woff') format('woff'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.ttf') format('truetype'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.svg') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dustismo_Roman_Italic_Bold';
+	src: url('../fonts/Dustismo_Roman/Dustismo_Roman_Italic_Bold.ttf');
+	/*src: local('☺'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.woff') format('woff'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.ttf') format('truetype'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.svg') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Cassiopea';
+	src: url('../fonts/cassiope/Cassiopea.ttf');
+	/*src: local('☺'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.woff') format('woff'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.ttf') format('truetype'), url('../fonts/soberana/SoberanaTitular/SoberanaTitular-Regular.svg') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}

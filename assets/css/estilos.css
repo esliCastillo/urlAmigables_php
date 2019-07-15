@@ -1,0 +1,237 @@
+@charset "utf-8";
+body{
+	margin: 0;
+}
+/*
+*Pagina de contacto
+*/
+.pagina_contacto {
+	width: 100%;
+	/*min-height: 550px;*/
+}
+.pagina_contacto div{
+	display: inline-table;
+}
+.pagina_contacto .form_contacto {
+	width: 55%;
+	
+}
+.pagina_contacto .form_contacto form div{
+	width: 100%;
+	margin: 0 15px 0 15px;
+}
+.pagina_contacto .form_contacto form div input{
+	width: 100%;
+}
+.pagina_contacto .form_contacto form div textarea{
+	width: 100%;
+	height: 80px;
+}
+.pagina_contacto .datos_contacto {
+	width: 40%;
+	margin: 0 15px 0 15px;
+}
+/*
+*Pagina de contacto
+*/
+.cuadro_derecha{
+	background-color: rgba(14,68,167,0.5);
+	width: 80%;
+	position: relative;
+	left: -1%;
+	padding: 1px 5px 1px 20px;
+}
+.cuadro_derecha:before{
+  content: "";
+  border-top:   15px solid #072A6C;
+  border-top-color: rgba(7,42,108,0.6);
+  border-left: 12px solid transparent;
+  border-right: 0px solid transparent;
+  position: absolute;
+  bottom: -15px;
+  left: -0.01%;
+}
+.portafolio .empresa{
+	width: 100%;
+	min-height: 420px;
+}
+.portafolio .empresa div{
+	position: relative;
+	float: left;
+	/*min-height: 75px;*/
+}
+.portafolio .empresa .empresa_nombre{
+	width: 80%;
+	text-align: left;
+}
+.portafolio .empresa .empresa_imagen{
+	width: 20%;
+	text-align: center;
+}
+.portafolio .empresa .empresa_descripcion{
+	width: 100%;
+	text-align: justify;
+}
+.body_container {
+	width: 60%;
+	margin: 2% 20% 2% 20%;
+	/*background-color: #C9D7F0;*/
+	background-color: rgba(201,215,240,0.5);
+	padding-bottom: 1%;
+	text-align: justify;
+}
+.body_container p{
+	padding: 1px 30px 1px 30px;
+}
+.Killam30 {
+	font: 30px Killam;
+}
+.Killam25 {
+	font: 25px Killam;
+}
+.Killam20 {
+	font: 20px Killam;
+}
+.berylium_bd_it25 {
+	font: 25px berylium_bd_it;
+}
+.Dustismo_Roman_Italic_Bold {
+	font: 15px Dustismo_Roman_Italic_Bold;
+}
+.Cassiopea {
+	font: 25px Cassiopea;
+}
+.centrado {
+	text-align: center;
+}
+/*
+*Cinta decorativa Titulo
+*/
+.cinta_azul {
+  color: #ffffff;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  position: relative;
+  padding: 7px 0;
+  left: -10px;
+  top: 20px;
+  width: 101.5%;
+  background-color: #072A6C;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#072A6C), to(#0E44A7));
+  background-image: -webkit-linear-gradient(top, #072A6C, #0E44A7);
+  background-image:    -moz-linear-gradient(top, #072A6C, #0E44A7);
+  background-image:     -ms-linear-gradient(top, #072A6C, #0E44A7);
+  background-image:      -o-linear-gradient(top, #072A6C, #0E44A7);
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+.cinta_azul:before{
+  content: "";
+  border-top:   15px solid #072A6C;
+  border-left:  10px solid transparent;
+  border-right: 0 solid transparent;
+  position: absolute;
+  bottom: -15px;
+}
+.cinta_azul:after {
+  content: "";
+  border-top:   15px solid #072A6C;
+  border-left:  0 solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: -15px;
+}
+.cinta_azul:before {
+  left: 0;
+}
+.cinta_azul:after {
+  right: 0;
+}
+/*
+*Cinta decorativa Titulo
+*/
+
+/*
+*Flecha decorativa Titulo
+*/
+.flecha_azul {
+  color: #ffffff;
+  text-align: left;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  position: relative;
+  padding: 7px 0;
+  padding-left: 30px;
+  left: 0px;
+  top: 20px;
+  width: 60%;
+  background-color: #072A6C;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#072A6C), to(#0E44A7));
+  background-image: -webkit-linear-gradient(top, #072A6C, #0E44A7);
+  background-image:    -moz-linear-gradient(top, #072A6C, #0E44A7);
+  background-image:     -ms-linear-gradient(top, #072A6C, #0E44A7);
+  background-image:      -o-linear-gradient(top, #072A6C, #0E44A7);
+  -webkit-box-shadow: 0px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 5px 0px rgba(0,0,0,0.3);
+  box-shadow:         0px 5px 0px rgba(0,0,0,0.3);
+}
+.flecha_azul:after{
+  content: "";
+  border-top:   19px solid transparent;
+  border-bottom:  19px solid transparent;
+  border-right: 20px solid #C9D7F0;
+  border-right-color: rgba(228,235,248,1);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/*
+*Flecha decorativa Titulo
+*/
+
+/*
+*Estilo para pantallas de 1080px a 1400px
+*/
+@media(min-width: 1080px) and (max-width: 1400px){
+	.cinta_azul {
+		width: 102.5%;
+	}
+	.portafolio .empresa{
+		min-height: 500px;
+	}
+}
+/*
+*Estilo para pantallas de 992px a 1200px
+*/
+
+
+/*
+*Estilo para pantallas de 800px a 1080px
+*/
+@media(min-width: 700px) and (max-width: 1080px){
+	.cinta_azul {
+		width: 103.5%;
+	}
+	.portafolio .empresa{
+		min-height: 500px;
+	}
+}
+/*
+*Estilo para pantallas de 800px a 1080px
+*/
+
+
+/*
+*Estilo para pantallas de menos de 800px
+*/
+@media (max-width: 700px){
+	.cinta_azul {
+		width: 105%;
+	}
+	.portafolio .empresa{
+		min-height: 1350px;
+	}
+}
+/*
+*Estilo para pantallas de menos de 800px
+*/
